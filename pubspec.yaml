@@ -1,0 +1,47 @@
+name: jal_rakshak
+description: AI Powered Tank Monitor — acoustic tank fill detection
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  tflite_flutter: ^0.10.4
+  record: ^5.1.2
+  audioplayers: ^6.1.0
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  sqflite: ^2.3.3+1
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  fl_chart: ^0.69.0
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  vibration: ^2.0.0
+  flutter_local_notifications: ^17.2.3
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/yamnet.tflite
+    - assets/models/jal_rakshak_head.tflite
+    - assets/audio/alarm_default.mp3
+    - assets/audio/alarm_gentle.mp3
+    - assets/audio/alarm_urgent.mp3
+
+yamldependency_overrides:
+  record_linux: ^0.6.0
