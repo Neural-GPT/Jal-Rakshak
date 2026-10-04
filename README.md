@@ -14,4 +14,9 @@ Live Inference on mobile
 4. Adding suppport for motor autocut
 5. Working on windows deployment for more powerful models
 
+# Architecture
+
+1. Yamnet Embeddings + Trained MLP head
+2. TFlite model deployment
+3. Cross platform support via Flutter [Android + Windows]
 
