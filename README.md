@@ -1,16 +1,17 @@
-# jal_rakshak
+# Jal Rakshak
 
-A new Flutter project.
+A machine learning based IOT system for wireless water tank overflow detection optimised for android device inference.
 
-## Getting Started
+![alt text](<Jal Rakshak.jpg>)
+Live Inference on mobile
 
-This project is a starting point for a Flutter application.
+# Features
 
-A few resources to get you started if this is your first Flutter project:
+1. Fast mobile inference
+2. Water tank fill analysis
+3. Wireless mic integration
+4. Inference data storage and manual labelling by user, the model then improves to local environment over time
+4. Adding suppport for motor autocut
+5. Working on windows deployment for more powerful models
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
